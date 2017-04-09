@@ -1,0 +1,26 @@
+{
+    "name": "culture-pn-psu/yii2-repair",
+    "description": "ระบบแจ้งซ่อม",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension"],
+    "license": "GPL-3.0",
+    "minimum-stability": "stable",
+    "support": {
+        "source": "https://github.com/culture-pn-psu/yii2-repair.git",
+        "issues": "https://github.com/culture-pn-psu/yii2-repair/issues"
+    },
+    "authors": [
+        {
+            "name": "Ahamad",
+            "email": "ahamad.jedu@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "culturePnPsu\\repair\\": ""
+        }
+    }
+}
